@@ -3,6 +3,7 @@
 
 ## Prime Index Scanner 🔍
 A lightweight, memory-efficient JavaScript utility for exploring the number line and finding prime numbers at scale using an index-based approach.
+
 ## 🚀 How it Works
 Unlike traditional sieves that require massive amounts of memory to store every prime, this scanner uses a targeted window approach. It relies on two mathematical principles:
 
@@ -23,15 +24,6 @@ Unlike traditional sieves that require massive amounts of memory to store every 
 | Trillions ($10^{12}$) | Trial Division | ~Hours |
 | Trillions ($10^{12}$) | Miller-Rabin (This Repo) | < 1ms |
 
-## 🧪 Experiments to Try
-
-* Find a Prime Desert: Find the longest sequence of k values where no primes exist.
-* Twin Prime Hunter: Track how many times both candidates in a single index return true.
-* Large Prime Search: Set your k value to 1000000000000000000000n and find the first prime in the septillions.
-
-------------------------------
-
-Here is a sample benchmark table you can copy directly into your README. It highlights how the search speed remains remarkably consistent even as the numbers grow from thousands to septillions.
 ## Performance Benchmark
 Fixed window of 1,000 index checks ($k$) per magnitude.
 
@@ -52,7 +44,13 @@ Fixed window of 1,000 index checks ($k$) per magnitude.
 * Thinning Density: As expected, the number of primes found in the same size window generally decreases as $k$ increases, demonstrating the Prime Number Theorem.
 * BigInt Reliability: The consistent performance across the trillions and quintillions shows that BigInt modular exponentiation is highly optimized in modern JavaScript engines (V8).
 
-Would you like help setting up a GitHub Action to automatically run these benchmarks whenever you push new code?
+## 🧪 Experiments to Try
+
+* Find a Prime Desert: Find the longest sequence of k values where no primes exist.
+* Twin Prime Hunter: Track how many times both candidates in a single index return true.
+* Large Prime Search: Set your k value to 1000000000000000000000n and find the first prime in the septillions.
+
+------------------------------
 
 
 
