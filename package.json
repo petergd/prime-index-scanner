@@ -13,6 +13,10 @@
     "type": "git",
     "url": "git+https://github.com/petergd/prime-index-scanner.git"
   },
+  "files": [
+    "src",
+    "index.js"
+  ],
   "keywords": [
     "prime numbers",
     "generator",
