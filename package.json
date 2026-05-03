@@ -1,0 +1,29 @@
+{
+  "name": "prime-index-scanner",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Memory-efficient JavaScript utility for index-based prime searching.",
+  "main": "src/scanner.js",
+  "scripts": {
+    "test": "node tests/primality.test.js",
+    "benchmark": "node examples/benchmark.js",
+    "twins": "node examples/twin-hunter.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petergd/prime-index-scanner.git"
+  },
+  "keywords": [
+    "prime numbers",
+    "generator",
+    "fast"
+  ],
+  "bugs": {
+    "url": "https://github.com/petergd/prime-index-scanner.git/issues",
+    "email": "11849215+petergd@users.noreply.github.com"
+  },
+  "author": "Peter Darmis",
+  "license": "MIT",
+  "devDependencies": {},
+  "homepage": "https://github.com/petergd/prime-index-scanner#readme"
+}
