@@ -7,13 +7,13 @@ export function getPrimes(index, twins = false) {
 
   if (twins) {
     // Only return the pair if BOTH are prime
-    return (aIsPrime && bIsPrime) ? candidates : [];
+    return (aIsPrime && bIsPrime) ? candidates : index;
   }
 
   const arr = [];
   if (aIsPrime) arr.push(candidates[0]);
   if (bIsPrime) arr.push(candidates[1]);
-  return arr;
+  return (!aIsPrime && !bIsPrime) ? index : arr;
 }
 
 export function addPrimesToArray(primes, array) {

@@ -1,13 +1,15 @@
 {
   "name": "prime-index-scanner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "Memory-efficient JavaScript utility for index-based prime searching.",
   "main": "src/scanner.js",
   "scripts": {
     "test": "node tests/primality.test.js",
+	"main": "node index.js",
     "benchmark": "node examples/benchmark.js",
-    "twins": "node examples/twin-hunter.js"
+    "twins": "node examples/twin-hunter.js",
+    "search": "node examples/large-prime-search.js"
   },
   "repository": {
     "type": "git",
