@@ -1,6 +1,6 @@
 {
   "name": "prime-index-scanner",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "type": "module",
   "description": "Memory-efficient JavaScript utility for index-based prime searching.",
   "main": "src/scanner.js",
